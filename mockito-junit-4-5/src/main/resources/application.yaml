@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mockito-junit-4-5
+
+  profiles:
+    active: dev
+
+  main:
+    allow-bean-definition-overriding: true
+
+  liquibase:
+    enabled: false
+
+#logging:
+#  level:
+#    org:
+#      springframework: debug
